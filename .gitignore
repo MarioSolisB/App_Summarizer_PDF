@@ -12,6 +12,7 @@ keys.json
 
 
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 # Ignore YAML config files
 #*.YAML
 
