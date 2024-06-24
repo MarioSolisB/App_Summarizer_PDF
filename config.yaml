@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    pparker:
+      email: peterparker@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Peter Parker
+      password: '$2b$12$G4Xqnf32PqCZbex3z6DShOiEo8QcvpWXpC5.x9tGb5ZaV3LfAlEJq' # Will be hashed automatically
+    bwayne:
+      email: brucewayne@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Bruce Wayne
+      password: '$2b$12$2ollfnWk9LA49gw9.xC48.c35QVhGmLcwxekg.zsalv2t/PC6IHtS' # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@gmail.com
