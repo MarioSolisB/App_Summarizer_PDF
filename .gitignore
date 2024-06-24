@@ -10,6 +10,8 @@ node_modules
 # Ignore files related to API keys
 keys.json
 
+
+generate_keys.ipynb
 # Ignore YAML config files
 #*.YAML
 
