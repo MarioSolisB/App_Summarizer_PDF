@@ -11,8 +11,7 @@ node_modules
 keys.json
 
 
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+site/
 # Ignore YAML config files
 #*.YAML
 
