@@ -51,6 +51,7 @@ def summarizer(pdf):
         1. Un resumen general del archivo.
         2. Resumir las ideas y argumentos más importantes del documento.
         3. En caso el documento sea una Ley o Normativa: menciona y enumera cúales son las más importantes.
+        4. En caso el documento sea una Ley o Normativa, y se encuentre divida por 'Títulos', resume de forma separada cada Título.
         """
 
         if query: 
