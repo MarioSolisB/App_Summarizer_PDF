@@ -50,8 +50,7 @@ def summarizer(pdf):
         query = """Eres un asistente legal y te solicitan hacer lo siguiente:
         1. Un resumen general del archivo.
         2. Resumir las ideas y argumentos más importantes del documento.
-        3. En caso el documento sea una Ley o Normativa: menciona y enumera cúales son las más importantes.
-        4. En caso el documento sea una Ley o Normativa, y se encuentre divida por TITULOS, resume de forma separada cada Título.
+        3. En caso el documento sea una Ley o Normativa: menciona y enumera cúales son las más importantes de cada título de la ley y un resumen por título.
         """
 
         if query: 
